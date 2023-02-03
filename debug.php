@@ -1,9 +1,9 @@
 <?php
 
-function dump($str): array
+function dump($str): void
 {
     echo '<pre>';
     var_dump($str);
     echo '</pre>';
-    die();
+    return;
 }
